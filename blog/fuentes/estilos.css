@@ -1,0 +1,297 @@
+@charset "UTF-8";
+
+.banner{
+    background: url(../assets/img/FM-ALBERCA-CAM-HD.png) no-repeat center center;
+    padding: 200px; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 250px;
+    width: 100%;
+    height: 400px;
+    filter: grayscale(20%);
+}
+    .up{
+	position: fixed;
+	bottom: 100px;
+	right: 25px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: #B4A269;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	cursor: pointer;
+	z-index: 1000;
+	opacity: 70%;
+    }
+    .footer-row {
+    font-size: 12px;
+    }
+    p{
+    font-size: 12px;
+    font-family: 'Gotham Light Regular';
+    font-size: 15px;
+    text-align: justify;
+    }
+    h4{
+    font-size: 18px;
+    color: #005caa;
+    }
+    .prom{
+    font-family: 'Gotham Light Regular';
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.2;
+    }
+    .scliente{
+    font-family: 'Gotham Light Regular';
+    font-size: 14px;
+    text-align: justify;
+    line-height: 1.3;
+    color: #53565a;        
+    }
+    .fCIUDADes{
+    font-family: 'Gotham Medium';
+    font-size: 10px;
+    text-align: justify;
+    line-height: 1.5;
+    }
+    .fCIUDADesdesc{
+    font-family: 'Gotham Light Regular';
+    font-size: 10px;
+    text-align: justify;
+    color: white;
+    line-height: 1.2;  
+    }
+    .fcontacto{
+    font-family: 'Gotham Light Regular';
+    font-size: 12px;
+    text-align: justify;  
+    line-height: 1.2;
+    }
+    .fcontactob{
+    font-family: 'Gotham Bold'; 
+    font-size: 12px; 
+    }
+    .sdesc{
+    font-family: 'Gotham Light Regular';
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    }
+    .sdescd{
+    font-family: 'Gotham Light Regular';
+    font-size: 12px;
+    text-align: center;
+    color:#66c5db;
+    line-height: 1.2;
+    }
+    .prombe{
+    font-family: 'Gotham Light Regular';
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.3;
+    }
+    .prombeb{
+    font-family: 'Gotham Bold';
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.2;
+    color: white;
+    }
+    .link{
+    font-family: 'Gotham Light Regular';
+    font-size: 14px;
+    text-align: right;
+    }
+    b{
+    font-family: 'Gotham Bold'; 
+    }
+    .prombdm{
+    font-family: 'Gotham Bold Italic';
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.2;
+    color: #15385f;
+    text-transform: uppercase;
+    }
+    .prombedm{
+    font-family: 'Gotham Light Regular';
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.3;   
+    color: #024b97;
+    }
+    .line{
+    width: 50%;
+    background: #f4ca34;
+    display: block;
+    height: 5px;
+    margin-top: 10px;
+    }
+    .formulario{
+    font-family: 'Gotham Light Regular';
+    color: #53565a;
+    font-size: 13px;
+    text-align: justify;
+    }
+    .formularioM{
+    font-family: 'Gotham Medium';
+    color: #53565a;
+    font-size: 13px;
+    text-align: center;
+    }    
+    .labelt{
+    font-family: 'Gotham Bold';
+    color: #15385f;
+    font-size: 12px;
+    }
+    .imagen{
+    display:block;
+    margin:auto;
+    }
+    .modal-body {
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
+    }
+    .menu{
+    color: #00aade;
+    font-family: 'Gotham Medium';
+    font-size: 11px;
+    }
+    .seccionA{
+    background-color: #fff;
+    margin-top: -45px;
+    }
+    .items{
+    font-family: 'Gotham Medium';
+    font-size: 12px;
+    color: #00aade;
+    }
+    h5{
+    font-family: 'Gotham Bold';
+    font-size: 18px;
+    color: white;
+    }
+    .descuentost{
+    font-family: 'Gotham Bold';
+    font-size: 24px;
+    color:  #15385f;
+    line-height: 1.2; 
+    text-align: left;
+    }
+    .descuentossub{
+    font-family: 'Gotham Medium';
+    font-size: 14px;
+    color: #00aade;
+    line-height: 1; 
+    text-align: left;
+    }
+    .descuentoslink{
+    font-family: 'Gotham Medium';
+    font-size: 12px;
+    color: #15385f;
+    line-height: 1; 
+    text-align: left;    
+    }
+    .descuentosd{
+    font-family: 'Gotham Light Regular';
+    font-size: 12px;
+    color: #15385f;
+    line-height: 1.2;   
+    text-align: left;
+    }
+    hr{
+    border-top: 1px solid rgb(145, 218, 241);
+    }
+    .carda:hover{
+    -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+    transition: box-shadow .5s;
+    }
+    .tituloEntrada{
+    font-family: 'Gotham Bold';
+    color: #15578b;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 1.3;
+    }
+    .cuerpoDetalle{
+    font-family: 'Gotham Light Regular';
+    text-align: justify;
+    font-size: 15px;
+    color: #53565a;
+    line-height: 1.3;
+    }
+    .bd-navbar .navbar-nav .nav-link:hover {
+    color: #fff;
+    background-color: transparent;
+    }
+
+    .fecha{
+    font-family: 'Gotham Light Regular';
+    font-size: 13px;  
+    color: #999999;
+    }
+
+    .requisitos{
+    font-family: 'Gotham Light Regular';
+    font-size: 13.5px;
+    color: white;
+    line-height: 1.4; 
+    }
+    /* unvisited link */
+    a:link {
+    color: #66c5db;
+    }
+
+    /* visited link */
+    a:visited {
+    color: #66c5db;
+    }
+
+    /* mouse over link */
+    a:hover {
+    color: #15578b;
+    }
+
+    /* selected link */
+    a:active {
+    color: #15578b;
+    } 
+    .mens{
+    position: relative;
+    color:#aea16e;
+    padding: 0.60rem;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    line-height: 0px;
+    top: 5px;
+    }
+
+    .titulo{
+    text-align: center;
+    color: #15578b;
+    }
+
+    .social-feed{
+    font-size: 20px;
+    display: table-cell;
+    padding-right: 10px;
+    }
+
+    .keys{
+    color: #15578b;
+    font-family: 'Gotham Medium';
+    font-size: 13px;
+    text-transform: uppercase;
+    }
+
